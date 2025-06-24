@@ -1,0 +1,29 @@
+[
+  {
+    "id": "init",
+    "title": "打开 App 并进入问一问",
+    "prompt": "Launch Fliggy, tap \"问一问\" ...",
+    "inputs": [],
+    "outputs": [
+      {"name": "homeScreenshot", "type": "Image", "desc": "主页截图"}
+    ]
+  },
+  {
+    "id": "search",
+    "title": "搜索酒店",
+    "prompt": "Enter destination and search for hotels...",
+    "inputs": [
+      {"name": "destination", "type": "Text", "desc": "目的地"}
+    ],
+    "outputs": []
+  },
+  {
+    "id": "select",
+    "title": "选择酒店并下单",
+    "prompt": "Choose a hotel and proceed with booking...",
+    "inputs": [],
+    "outputs": [
+      {"name": "bookingConfirm", "type": "Image", "desc": "确认页截图"}
+    ]
+  }
+]
