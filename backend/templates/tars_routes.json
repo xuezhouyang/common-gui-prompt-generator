@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sample1",
+    "title": "示例流程一",
+    "nodes": [
+      {
+        "id": "init",
+        "title": "打开App",
+        "prompt": "Launch app",
+        "inputs": [],
+        "outputs": [
+          {"name": "screenshot", "type": "Image", "desc": "首页"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sample2",
+    "title": "示例流程二",
+    "nodes": [
+      {
+        "id": "login",
+        "title": "登录",
+        "prompt": "Login with credentials",
+        "inputs": [
+          {"name": "user", "type": "string", "desc": "用户名"}
+        ],
+        "outputs": []
+      }
+    ]
+  }
+]
