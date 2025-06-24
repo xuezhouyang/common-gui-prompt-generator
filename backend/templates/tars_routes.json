@@ -1,0 +1,17 @@
+[
+  {
+    "description": "演示流程 1",
+    "images": ["demo1.png"],
+    "dsl": {
+      "workflow": [
+        {
+          "id": "init",
+          "title": "打开 App 并进入问一问",
+          "prompt": "Launch Fliggy, tap '问一问'.",
+          "inputs": [],
+          "outputs": [{"name": "homeScreenshot", "type": "Image", "desc": "主页截图"}]
+        }
+      ]
+    }
+  }
+]
